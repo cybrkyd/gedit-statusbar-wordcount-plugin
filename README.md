@@ -11,4 +11,6 @@ Installation
 1. Copy `wordcount.plugin` and `wordcount.py` to `~/.local/share/gedit/plugins`
 2. Activate it from gedit's plugins dialogue.
 
-
+## Licences
+gedit status bar word count plugin is made available under a [GPL3
+license](https://github.com/cybrkyd/gedit-statusbar-wordcount-plugin/blob/main/LICENSE)
