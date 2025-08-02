@@ -73,8 +73,8 @@ class WordcountPlugin(GObject.Object, Gedit.WindowActivatable):
             return
         try:
             text = get_text(doc)
-            count = len(WORD_RE.findall(text))
-            self._label.set_text(f"words: {count}")
+            word_count = len(WORD_RE.findall(text))
+            char_count = len(text)
+            self._label.set_text(f"words: {word_count} | chars: {char_count}")
         except Exception as e:
             self._label.set_text(f"error: {e}")
-
