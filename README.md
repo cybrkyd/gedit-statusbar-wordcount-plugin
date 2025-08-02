@@ -1,9 +1,9 @@
 gedit-statusbar-wordcount-plugin
 ======================
 
-Forked from: --> https://github.com/footley/gedit-wordcount-plugin
+Hard forked from: --> https://github.com/footley/gedit-wordcount-plugin and made updates and improvements.
 
-A gedit plugin which adds a Label to the status bar with the active documents word count, where a word is defined as `r"[a-zA-Z0-9]+(?:[-'][a-zA-Z0-9]+)*"`.
+A gedit plugin which adds a label to the status bar with the active document's word and character count, where a word is defined as `r"[a-zA-Z0-9]+(?:[-'][a-zA-Z0-9]+)*"`.
 
 Installation
 ------------
