@@ -12,6 +12,17 @@ Installation
 2. Copy `wordcount.plugin` and `wordcount.py` to `~/.local/share/gedit/plugins`
 3. Activate it from gedit's plugins dialogue.
 
+## Changes from original
+
+- Character counter
+- More accurate regex for word boundaries
+- Adds debouncing (throttling) to reduce update frequency on fast edits
+- Displays both word count and character count
+- Adds multiple `try`/`except` blocks to prevent crashes
+- Separates tracking of active document and connection ID
+- Proper cleanup of timers and connections on deactivation
+- Displays user-visible errors in the status bar on failure
+
 ## Licences
 gedit status bar word count plugin is made available under a [GPL3
 license](https://github.com/cybrkyd/gedit-statusbar-wordcount-plugin/blob/main/LICENSE)
