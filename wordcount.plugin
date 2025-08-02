@@ -3,6 +3,6 @@ Loader=python3
 Module=wordcount
 IAge=3
 Name=Wordcount
-Description=Displays word count in status bar
+Description=Displays word and character count in status bar
 Authors=Cybrkyd
 Website=https://cybrkyd.com
